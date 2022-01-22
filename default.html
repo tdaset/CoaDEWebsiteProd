@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="favicon.ico">
+	<title></title>
+	<script src="CUSTOM/JS/jquery-1.11.2.min.js"></script>
+	<script src="CUSTOM/JS/bootstrap.min.js"></script>	
+	<script src="CUSTOM/JS/master.js"></script>	
+	<link rel="stylesheet" type="text/css" href="CUSTOM/CSS/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="CUSTOM/CSS/master.css">
+	<link rel="stylesheet" type="text/css" href="CUSTOM/CSS/home.css">
+</head>
+<body>
+<div id="myModal" class="modalPOPUP">
+  <span class="close" id="closeModal">X</span>
+  <img class="modal-content" id="modalIMG">
+</div>
+
+<div id="myModal2" class="modalPOPUP2">
+  <span class="close2" id="closeModal2">X</span>
+  <div id="videoLocation"></div>
+</div>
+	<div class="hero">
+		<div class="header max-width">
+			<a href="" id="site-logo"><img src="CUSTOM/IMG/footer-logo.png" alt="children of a dead earth logo"/></a>
+			<div class="links">
+				<a href="Overview.html">About</a>
+				<a href="mailto:info@childrenofadeadearth.com">Contact</a>
+				<a href="https://childrenofadeadearth.wordpress.com">Blog</a>
+				<a href="https://childrenofadeadearth.boards.net/">Forum</a>
+			</div>
+			<div class="social">
+				<a href="https://store.steampowered.com/app/476530" class="button">Available on Steam</a>
+				<a href="https://www.twitter.com/QSwitched" class="social-icon"><img src="CUSTOM/IMG/twitter.png" alt="Twitter Icon" /></a>
+				<a href="https://www.facebook.com/childrenofadeadearth/" class="social-icon"><img src="CUSTOM/IMG/facebook.png" alt="facebook icon" /></a>
+			</div>
+		</div>
+		<div class="hero-content table-content">
+			<div class="hero-content-inner table-inner">
+				<h1 class="page-title">Children of a dead Earth</h1>
+				<div class="bar"></div>
+				<h2 class="page-blurb">
+					The most scientifically accurate video game ever made
+				</h2>
+				<div class="options">
+					<a href="#" class="button" id="videoModal">View Trailer</a>
+					<a href="Overview.html" class="button">Learn More</a>
+				</div>
+				<img class="scroll" style="display: none;" src="CUSTOM/IMG/scroll.png" />
+			</div>
+		</div>
+	</div>
+	<div class="game-features">
+		<div class="max-width">
+			<h1 class="section-header"><img src="CUSTOM/IMG/rectangle.png" />Game Features</h1>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="game-feature-box">
+							<h1 class="Green-Header">Campaign and Sandbox Modes</h1>
+							<div class="game-feature-img-container">
+								<div class="popUpIMG game-feature-img screenshot-war"></div>
+							</div>
+							<p class="game-feature-p">
+								Assume the role of an admiral and fight through a storyline chronicling the descent of the solar system into war. Or simply play in the sandbox, designing ships and pitting them against one another.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="game-feature-box">
+							<h1 class="Green-Header">Real Science, Real Technology</h1>
+							<div class="game-feature-img-container">
+								<div class="popUpIMG game-feature-img screenshot-railguns"></div>
+							</div>
+							<p class="game-feature-p">
+								Every technology, from the Nuclear Thermal Rockets to the Magnetoplasmadynamic Thrusters to the Railguns, was implemented using actual equations from Engineering and Physics textbooks and white papers.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="game-feature-box">
+							<h1 class="Green-Header">Extremely Accurate Orbital Mechanics</h1>
+							<div class="game-feature-img-container">
+								<div class="popUpIMG game-feature-img screenshot-unstableorbit"></div>
+							</div>
+							<p class="game-feature-p">
+								With an N-Body Simulator (the kind NASA uses to plot actual spacecraft trajectories), all orbital phenomenon from hyperbolic orbits, Lagrange points, and orbital perturbation are all correctly simulated.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row text-center">
+					<a href="GameFeatures.html" class="special-button">All Features</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="more-info">
+		<div class="container-fluid max-width">
+			<h1 class="more-info-header">
+				Space Combat Simulator<br />
+				100% Scientific Realism
+			</h1>
+			<div class="row">
+				<div class="col-md-6 extra-padding">
+					<h1 class="section-header">
+						For those who want to know
+						what space warfare would actually
+						be like.
+					</h1>
+					<p class="game-feature-p">
+						No other game combines the extremely accurate orbital mechanics, 1:1 scale of the solar
+						system, and technology which is implemented 100% by scientific equations.
+					</p>
+					<p class="game-feature-p">
+						Children of a Dead Earth is a simulation of true-to-life space 
+						warfare. Design your spacecrafts using real world technologies. 
+						Traverse the solar system using actual orbit mechanics. 
+						Command fleets as the solar system descends into war, and 
+						see if you have what it takes to become the victor.
+					</p>
+					<p class="game-feature-p" style="font-weight: 800;">
+						AVAILABLE NOW ON THESE PLATFORMS<br /><br />
+						<div class="platforms">
+							<a href="https://store.steampowered.com/app/476530"><img src="CUSTOM/IMG/steam.png" /></a>
+						</div><br />
+						<div class="min-req">
+							Minimum Requirements<br />
+							Windows 7+ or Mac OS X Lion+ | 200 MB of disk space | Intel Core
+							i5 @ 1.70 GHz processor 2GB of RAM | 1280x800 Resolution | Intel HD Graphics 4000
+						</div>
+					</p>
+				</div>
+				<div class="col-md-6" style="min-height: 390px;">
+					<iframe id="trailer" src="https://www.youtube.com/embed/tiIh4Xw2bnQ" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="max-width">
+			<div class="footer-links">
+				<a href="Overview.html">About</a>
+				<a href="mailto:info@childrenofadeadearth.com">Contact</a>
+				<a href="https://childrenofadeadearth.wordpress.com">Blog</a>
+				<a href="https://childrenofadeadearth.boards.net/">Forum</a>
+			</div>
+			<a href="" id="footer-logo"><img src="CUSTOM/IMG/footer-logo.png" alt="children of a dead earth logo"/></a>
+		</div>
+	</div>
+</body>
+</html>

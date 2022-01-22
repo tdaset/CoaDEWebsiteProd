@@ -1,0 +1,184 @@
+.game-features {
+	background-color: black;
+	background-image: url("../IMG/game-features.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 60px 30px 60px;
+}
+
+.game-features h1.section-header {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.game-features h1 img {
+	margin-top: -10px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.game-feature-img-container {
+	padding: 15px;
+	border: 1px solid #3e3e3e;
+}
+
+.game-feature-img {
+	height: 234px;
+	width: 100%;
+}
+
+.game-feature-p {
+	font-size: 17px; 
+	color: white;
+	margin-top: 30px;
+	line-height: 22px;
+}
+
+.hero-content {
+	display: table;
+	vertical-align: middle;
+	width: 100%;
+	text-align: center;
+	height: 680px;
+    padding: 30px;
+	background: rgba(0,0,0,0.1);
+}
+
+.hero-content-inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+
+.hero h1, .hero h2 {
+	text-transform: uppercase;
+}
+
+.hero h1 {
+	font-size: 56px;
+	letter-spacing: 8px;
+	text-shadow: 0px 0px 10px black;
+}
+
+.hero h2 {
+	font-size: 34px;
+	letter-spacing: 4px;
+	max-width: 765px;
+	margin: 35px auto 45px;
+	text-shadow: 0px 0px 10px black;
+    font-weight: 300;
+}
+
+.hero .options {
+	margin-top: 35px;
+}
+
+.hero .options .button {
+	opacity: 1;
+    letter-spacing: 2px;
+	box-shadow: 0px 0px 10px black;
+	text-shadow: 0px 0px 10px black;
+	transition: background ease-in 0.25s;
+	width: 195px;
+}
+
+.hero .options .button:last-child {
+	margin-right: 0px;
+}
+
+.hero .options .button:hover {
+	background: white;
+	color: black;
+	border: 1px solid black;
+	opacity: 0.8;
+	text-shadow: 0px 0px 2px #CFCFCF;
+}
+
+.scroll {
+	position: absolute; 
+	bottom: 45px;
+	left: 50%;
+    right: 50%;
+	cursor: pointer;
+    margin-left: -15px;
+}
+
+.more-info {
+	background-color: black;
+	background-image: url("../IMG/moon.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 60px 30px 60px;
+}
+
+.more-info-header {
+	font-size: 56px;
+    letter-spacing: 8px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+    text-shadow: 0px 0px 10px black;
+    margin-bottom: 60px;
+}
+
+#trailer {
+	height: 350px;
+	width: 100%;
+}
+
+h1.section-header {
+    text-transform: uppercase;
+    font-weight: 100;
+    text-shadow: 1px 0px 24px black;
+}
+
+.more-info h1.section-header::before {
+    content: url("../IMG/rectangle.png");
+    position: absolute;
+    left: -12px;
+    top: -5px;
+}
+
+@media (max-width: 644px) {
+	.hero h1 {
+		font-size: 30px;
+	}
+	
+	.hero h2 {
+		font-size: 18px;
+	}
+
+	.more-info-header {
+		font-size: 30px;
+	}
+	
+	.game-features h1.section-header {
+		font-size: 20px;
+	}
+	
+	h1.section-header::before {
+		/*display: none;*/
+	}
+	
+	h1.section-header {
+		font-size: 20px;
+	}
+	
+	.hero-content {
+		height: auto;
+	}
+}
+
+@media (max-width: 522px) {
+	.hero .options .button {
+		margin: 0px;
+		width: 195px;
+		margin-bottom: 10px;
+	}
+}

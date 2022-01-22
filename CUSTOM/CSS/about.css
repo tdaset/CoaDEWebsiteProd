@@ -1,0 +1,171 @@
+.hero-content {
+    height: 300px;
+}
+
+/* OVERVIEW SECTION CSS */
+.Section-Overview {
+	
+}
+
+.Section-Overview h1.block-title {
+	font-size: 44px;
+	max-width: 925px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mini-block-title {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 100;
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.overview-hero {
+	padding: 150px 30px 200px;
+	background-image: url("../IMG/overview-hero.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.Section-Overview .alternate-row:nth-child(even) {
+    background: none;
+}
+
+.overlap-area {
+	background: #262626;
+}
+
+.overlap {
+	margin-top: -120px;
+	clear: both;
+}
+
+/* FEATURES SECTION CSS */
+.Section-Features {
+	padding: 30px;
+}
+
+.feature-img {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.alternate-row {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.alternate-row:nth-child(even) {
+	background: #1a1a1a;
+}
+
+.alternate-row h1 {
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.alternate-row p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+/* FAQ SECTION CSS */
+.Section-FAQ {
+	padding: 0px 30px 30px;
+	background-image: url("../IMG/stars-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.FAQ {
+	min-height: 700px;
+	background: url("../IMG/stars-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table;
+	width: 100%;
+	position: relative;
+    padding-bottom: 30px;
+}
+
+.FAQ-CategoryTitle {
+	font-size: 56px;
+	text-transform: uppercase;
+	color: #fdfeff;
+	text-align: center;
+	font-weight: 100;
+	text-shadow: 0px 0px 8px white;
+	letter-spacing: 6px;
+    margin: 50px auto auto;
+}
+
+.FAQ-SectionTitle {
+	font-family: "Avenir LT Std 35 Light";
+	font-size: 35px;
+	color: #fdfeff;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 35px auto;
+	text-align: center;
+}
+
+.FAQ-SectionTitle img {
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+
+.FAQ-Fact {
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 25px auto;
+	position: relative;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.FAQ-Fact::before {
+  content: url("../IMG/greenCircle.png");
+  position: absolute;
+  left: 0px;
+  top: -4px;
+}
+
+.FAQ-Fact * {
+	font-size: 18px !important;
+}
+
+.FAQ-Description {
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	font-family: Arial;
+	margin: 20px auto;
+	font-weight: 200;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@media (max-width: 996px) {
+	.overview-ced {
+		margin-top: 30px;
+	}
+
+	.overview-accuracy {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 544px) {
+	.hero-content {
+		height: auto;
+	}
+}
